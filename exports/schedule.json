@@ -1,0 +1,76 @@
+{
+  "institution": "Chilika Institute of Technology",
+  "semester": "Autumn 2024",
+  "status": "official_baseline",
+  "metadata": {
+    "total_sessions": 189,
+    "total_hours": 243,
+    "one_hour_lectures": 162,
+    "three_hour_labs": 27,
+    "rooms_utilized": 27,
+    "hard_constraint_violations": 0,
+    "soft_penalty": 42.5
+  },
+  "sessions": [
+    {
+      "id": "sess_100",
+      "course_code": "CS301L",
+      "course_name": "Computer Networks Lab",
+      "faculty_id": "fac_02",
+      "faculty_name": "Dr. R. Patnaik",
+      "student_groups": ["B.Tech CSE Sem 3 (Sec A)"],
+      "room_id": "SC-L1",
+      "day": "Monday",
+      "start_period": "P2",
+      "end_period": "P4",
+      "time_slot": "09:00 - 12:00",
+      "duration_hours": 3,
+      "type": "laboratory"
+    },
+    {
+      "id": "sess_101",
+      "course_code": "EC201L",
+      "course_name": "Digital Electronics Lab",
+      "faculty_id": "fac_06",
+      "faculty_name": "Dr. Vikram Rao",
+      "student_groups": ["B.Tech ECE Sem 3"],
+      "room_id": "SC-L2",
+      "day": "Tuesday",
+      "start_period": "P6",
+      "end_period": "P8",
+      "time_slot": "14:00 - 17:00",
+      "duration_hours": 3,
+      "type": "laboratory"
+    },
+    {
+      "id": "sess_102",
+      "course_code": "CS201",
+      "course_name": "Data Structures",
+      "faculty_id": "fac_04",
+      "faculty_name": "Prof. A",
+      "student_groups": ["B.Tech CSE Sem 3 (Sec A)"],
+      "room_id": "A-102",
+      "day": "Tuesday",
+      "start_period": "P1",
+      "end_period": "P1",
+      "time_slot": "08:00 - 09:00",
+      "duration_hours": 1,
+      "type": "lecture"
+    },
+    {
+      "id": "sess_103",
+      "course_code": "CS202",
+      "course_name": "Object Oriented Programming",
+      "faculty_id": "fac_04",
+      "faculty_name": "Prof. A",
+      "student_groups": ["B.Tech CSE Sem 3 (Sec A)"],
+      "room_id": "A-103",
+      "day": "Tuesday",
+      "start_period": "P2",
+      "end_period": "P2",
+      "time_slot": "09:00 - 10:00",
+      "duration_hours": 1,
+      "type": "lecture"
+    }
+  ]
+}

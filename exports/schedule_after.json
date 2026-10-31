@@ -1,0 +1,31 @@
+{
+  "institution": "Chilika Institute of Technology",
+  "semester": "Autumn 2024",
+  "status": "repaired_schedule",
+  "disruption_applied": {
+    "id": "disrupt_01",
+    "reason": "Prof. A not available on Tuesday, 13 Aug 2024 (full day)",
+    "file": "academic_unavailability_tue.csv"
+  },
+  "metadata": {
+    "total_sessions": 189,
+    "total_hours": 243,
+    "moved_sessions_count": 2,
+    "hard_constraint_violations": 0,
+    "repaired_by": "Independent Admin Approval"
+  },
+  "repaired_changes": [
+    {
+      "course_code": "CS201",
+      "faculty": "Prof. A",
+      "before": { "day": "Tuesday", "slot": "08:00 - 09:00", "room": "A-102" },
+      "after": { "day": "Thursday", "slot": "08:00 - 09:00", "room": "A-102" }
+    },
+    {
+      "course_code": "CS202",
+      "faculty": "Prof. A",
+      "before": { "day": "Tuesday", "slot": "09:00 - 10:00", "room": "A-103" },
+      "after": { "day": "Thursday", "slot": "09:00 - 10:00", "room": "A-103" }
+    }
+  ]
+}
