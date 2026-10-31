@@ -208,16 +208,8 @@ export function renderLandingView(container) {
             </button>
           </div>
 
-          <!-- Right: Primary CTA -->
+          <!-- Right: Mobile Menu Toggle Button -->
           <div class="flex items-center gap-2 sm:gap-3">
-            <button id="nav-explore-btn" onclick="window.__citrixStore.setView('workspace')"
-              class="group relative inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#080A09] text-white hover:bg-[#151917] transition-all text-xs font-semibold shadow-sm hover:shadow-md">
-              <span>Enter Workspace</span>
-              <svg class="w-3.5 h-3.5 text-[#B8F36B] transform group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-              </svg>
-            </button>
-            <!-- Mobile Menu Toggle Button -->
             <button onclick="window.__citrixToggleMobileMenu()" class="md:hidden p-2 rounded-xl text-[#101110] hover:bg-[#F0F2EE] transition-colors">
               <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
