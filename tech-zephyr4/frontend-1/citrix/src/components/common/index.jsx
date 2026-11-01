@@ -182,7 +182,7 @@ export function EmptyState({ icon: Icon = AlertCircle, title, description, actio
   return (
     <div className="flex flex-col items-center justify-center p-12 text-center border border-dashed border-slate-800 rounded-2xl bg-slate-900/20">
       <div className="w-14 h-14 rounded-2xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-center text-slate-400 mb-4 shadow-inner">
-        <Icon className="w-7 h-7 text-indigo-400" />
+        <Icon className="w-7 h-7 text-[#B8F36B]" />
       </div>
       <h4 className="text-base font-bold text-slate-100 mb-1">{title}</h4>
       <p className="text-xs sm:text-sm text-slate-400 max-w-sm mb-5 leading-relaxed">{description}</p>

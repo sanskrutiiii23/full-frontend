@@ -12,9 +12,9 @@ import RoleGuard, { getDashboardForRole } from "@/components/auth/RoleGuard";
 
 // ─── Spinner fallback ────────────────────────────────────────────────────────
 const PageSpinner = () => (
-  <div className="flex items-center justify-center min-h-screen bg-[#0B1120]">
+  <div className="flex items-center justify-center min-h-screen bg-[#080A09]">
     <div className="flex flex-col items-center gap-4">
-      <div className="w-12 h-12 rounded-full border-4 border-slate-700 border-t-blue-500 animate-spin" />
+      <div className="w-12 h-12 rounded-full border-4 border-slate-700 border-t-[#B8F36B] animate-spin" />
       <p className="text-slate-400 text-sm tracking-wide">Loading…</p>
     </div>
   </div>
